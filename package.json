@@ -1,0 +1,22 @@
+{
+  "name": "useful-interfaces",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/soupCodez/useful-interfaces.git"
+  },
+  "author": "soupCodez",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/soupCodez/useful-interfaces/issues"
+  },
+  "homepage": "https://github.com/soupCodez/useful-interfaces#readme",
+  "devDependencies": {
+    "typescript": "^4.2.4"
+  }
+}
