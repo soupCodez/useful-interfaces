@@ -9,10 +9,15 @@ export interface person {
 export interface pc {
   id: number;
   isLaptop: Boolean;
-  ram?: number;
+  ram?: number[];
+  cpu?: string;
   brand?: string;
   motherboard?: string;
   storage?: string[];
   ports?: string[];
   release?: Date;
+}
+
+export interface program {
+  storageNeededMB: number
 }
