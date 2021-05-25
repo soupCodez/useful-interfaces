@@ -19,5 +19,8 @@ export interface pc {
 }
 
 export interface program {
-  storageNeededMB: number
+  storageNeededMB?: number;
+  name?: string;
+  creators?: string[];
+  version?: number[] // e.g. ["1", "0", "0"]
 }
