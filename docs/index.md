@@ -1,37 +1,36 @@
-## Welcome to GitHub Pages
+## Welcome to [useful-interfaces](https://github.com/soupCodez/useful-interfaces)
 
-You can use the [editor on GitHub](https://github.com/soupCodez/useful-interfaces/edit/master/docs/index.md) to maintain and preview the content for your website in Markdown files.
+### Work in Progress
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+This project is still being worked on!
+It may not be the best option.
+Any help with this project would be appreciated.
 
-### Markdown
+### Contributing
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+If you would like to contribute you can!
+If you want to add a new interface here are the steps!
 
-```markdown
-Syntax highlighted code block
+1. enter the `index.ts` file
+2. review the code for bugs (optional)
+3. make the interface
 
-# Header 1
-## Header 2
-### Header 3
+It should be similar to this:
 
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
+```ts
+export interface pc {
+  id: number;
+  isLaptop: Boolean;
+  ram?: number[];
+  cpu?: string;
+  brand?: string;
+  motherboard?: string;
+  storage?: string[];
+  ports?: string[];
+  release?: Date;
+}
 ```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+### Quick start guide
 
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/soupCodez/useful-interfaces/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+coming soon...
