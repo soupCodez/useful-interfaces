@@ -1,7 +1,7 @@
 {
   "name": "useful-interfaces",
-  "version": "1.0.0",
-  "description": "",
+  "version": "0.0.1",
+  "description": "Useful typescript interfaces",
   "main": "index.js",
   "scripts": {
     "build": "tsc"

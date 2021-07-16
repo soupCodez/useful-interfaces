@@ -1,4 +1,4 @@
-export interface person {
+export interface Person {
   name?: string;
   age?: number;
   gender?: string;
@@ -6,7 +6,7 @@ export interface person {
   id: number;
 }
 
-export interface pc {
+export interface Pc {
   id: number;
   isLaptop: Boolean;
   ram?: number[];
@@ -18,7 +18,7 @@ export interface pc {
   release?: Date;
 }
 
-export interface program {
+export interface Program {
   storageNeededMB?: number;
   name?: string;
   creators?: string[];
