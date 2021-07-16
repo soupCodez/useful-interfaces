@@ -22,5 +22,5 @@ export interface Program {
   storageNeededMB?: number;
   name?: string;
   creators?: string[];
-  version?: number[] // e.g. ["1", "0", "0"]
+  version?: number[] // e.g. [1, 0, 0]
 }
